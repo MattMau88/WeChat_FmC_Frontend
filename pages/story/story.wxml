@@ -1,0 +1,28 @@
+<!--pages/story/story.wxml-->
+<view class="container">
+
+  <view class="card-container-story flex-column justify-content-center align-items-center">
+      <text class="header">Story: {{name}}</text>
+      <text class="paragraph">Content: {{text}}</text>
+      <view class="flex justify-content-between" style="margin-top: 16px;">
+          <button bindtap="goToEdit" data-id="{{id}}" class="btn-btn-edit btn-sm">Edit Story</button>
+          <button bindtap="deleteStory" data-id="{{id}}" class="btn-btn-delete btn-sm">Delete Story</button>
+      </view>    
+  </view>
+  
+  <!--iterate over comments-->
+  <view class="container">
+    <text class="header">COMMENTS:</text>
+    <view wx:for="{{ comments }}" wx:for-item="comment" data-story="{{comment}}" class="card-container-comment flex-column" >
+      <text class="subHeader">Name: {{comment.name}}</text>
+      <text class="paragraph">Comment: {{comment.content}}</text>
+      <view class="flex justify-content-between" style="margin-top: 16px;">
+        <text class="card-author paragraph">{{comment.name}}</text>
+        <view class="flex align-items-center">
+          <text class="card-votes paragraph">{{comment.date}}</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

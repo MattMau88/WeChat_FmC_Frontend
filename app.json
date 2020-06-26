@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/stories/stories", 
+    "pages/post/post",
+    "pages/story/story",
+    "pages/edit/edit"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0075FF",
+    "navigationBarTitleText": "Matt's MP",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "#0075FF",
+    "borderStyle": "white",
+    "selectedColor": "#FFFFFF",
+    "color": "#FFFFFF",
+    "list": [{
+      "pagePath": "pages/stories/stories",
+      "text": "Stories",
+      "iconPath": "images/story-list.png",
+      "selectedIconPath": "images/story-list.png"
+    }, 
+    {
+      "pagePath": "pages/post/post",
+      "text": "Post",
+      "iconPath": "images/story-write.png",
+      "selectedIconPath": "images/story-write.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

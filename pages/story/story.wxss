@@ -1,0 +1,44 @@
+/* pages/story/story.wxss */
+.card-container-story  {
+  width: 90%; 
+  background: rgb(112, 216, 138);
+  box-shadow: 4px 4px 16px rgba(0,0,0,0.2);
+  padding: 16px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.card-container-comment  {
+  width: 90%; 
+  background: rgb(108, 198, 240);
+  box-shadow: 4px 4px 16px rgba(0,0,0,0.2);
+  padding: 16px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.btn-btn-edit {
+  margin: 3px;
+  padding: 3px;
+  width: 30%;
+  background: #0075FF;
+  color: white;
+}
+
+.btn-btn-edit:hover {
+  background: rgb(35, 25, 175);
+  color: white;
+}
+
+.btn-btn-delete {
+  margin: 3px;
+  padding: 3px;
+  width: 30%;
+  background: rgb(255, 0, 0);
+  color: white;
+}
+
+.btn-btn-delete:hover {
+  background: rgb(136, 44, 44);
+  color: white;
+}

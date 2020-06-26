@@ -1,0 +1,21 @@
+<!--pages/edit/edit.wxml-->
+<view class="container flex-column">
+  <text class="subHeader">Edit this Story</text>
+  
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="section">
+      <view class="title">Name</view>
+      <input name="name" value="{{name}}" />
+    </view>
+    
+    <view class="section">
+      <view class="title">Text</view>
+      <textarea class="textarea" name="text" value="{{text}}" />
+    </view>
+    
+    <view class="btn-area flex justify-content-between">
+      <button type="primary" form-type="submit" style="margin: 0 4px;">Submit</button>
+      <button type="warn" form-type="reset" style="margin: 0 4px;" >Reset</button>
+    </view>
+  </form>
+</view>

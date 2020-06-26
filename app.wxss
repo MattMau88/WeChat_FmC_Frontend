@@ -1,0 +1,93 @@
+page {
+  background: #FBFBF6;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.header {
+  margin: 8px 0;
+  color: rgb(20, 13, 13);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.subHeader {
+  margin: 8px 0;
+  color: rgba(20,20,20);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.paragraph {
+  margin: 4px;
+  color: rgba(20,20,20);
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center; 
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+  margin: 0 4px;
+}
+
+form {
+  box-sizing: border-box;
+  position: relative;
+}
+
+form .section {
+  margin: 16px 0;
+}
+
+form .title {
+  font-weight: bolder;
+  margin-bottom: 4px;
+}
+
+form textarea {
+  height: 120px;
+  background: white;
+  padding: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  width: 95%;
+}
+
+form input {
+  background: white;
+  padding: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+.btn-btn-bottom {
+  position: absolute;
+  bottom: 32px;
+  background: #0075FF;
+  color: white;
+}
+
+.btn-btn-bottom:hover {
+  background: rgb(66, 94, 136);
+  color: white;
+}

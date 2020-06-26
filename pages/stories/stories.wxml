@@ -1,0 +1,15 @@
+<view class="container">
+
+  <view wx:for="{{ stories }}" wx:for-item="story" bindtap="goToStory" data-story="{{story}}" class="card-container flex-column" >
+    <text class="subHeader">{{story.name}}</text>
+    <text class="paragraph">{{story.text}}</text>
+    <view class="flex justify-content-between" style="margin-top: 16px;">
+      <text class="card-author paragraph">{{story.name}}</text>
+      <view class="flex align-items-center">
+        <image src="../../images/favorite.png" class="icon"></image>
+        <text class="card-votes paragraph">4</text>
+      </view>
+    </view>
+  </view>
+
+</view>
